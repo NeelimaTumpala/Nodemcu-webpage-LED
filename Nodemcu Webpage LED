@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h> 
 #include <ESP8266WebServer.h> 
 
-const char* ssid = "APFIBER_F930";
-const char* password = "0000009FE5";
+const char* ssid = "USERNAME";
+const char* password = "PASSWORD";
 
 ESP8266WebServer server(80);
 char temp[400];
