@@ -25,7 +25,7 @@ void handleRoot()
 void ledOn() 
 {
   pinMode(16, OUTPUT);
-  digitalWrite(16, HIGH);
+  digitalWrite(16, LOW);
   delay(1000);
   server.send(200, "text/html", temp);
 }
@@ -33,7 +33,7 @@ void ledOn()
 void ledOff() 
 {
   pinMode(16, OUTPUT);
-  digitalWrite(16, LOW);
+  digitalWrite(16, HIGH);
   delay(1000);
   server.send(200, "text/html", temp);
 }
